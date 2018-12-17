@@ -1,0 +1,26 @@
+{
+  "name": "login-register-nodeapp",
+  "version": "1.0.0",
+  "description": "mysql-login-register",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start-server": "node index.js"
+  },
+  "keywords": [
+    "#mysql#login#register"
+  ],
+  "author": "NikhilReddy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
